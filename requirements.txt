@@ -1,0 +1,41 @@
+# =============================
+# هندسة البصيرة - Insight Engineering App
+# ملف المتطلبات - requirements.txt
+# =============================
+
+# --- واجهة التطبيق وعرض البيانات ---
+streamlit>=1.36.0
+matplotlib>=3.9.0
+networkx>=3.2.1
+numpy>=1.26.4
+pandas>=2.2.2
+
+# --- الذكاء الاصطناعي وتحليل النصوص ---
+scikit-learn>=1.4.2
+nltk>=3.9.1
+transformers>=4.42.4
+sentencepiece>=0.2.0
+
+# --- تحليل الصوت والصورة ---
+librosa>=0.10.2
+pydub>=0.25.1
+soundfile>=0.12.1
+Pillow>=10.3.0
+
+# --- قاعدة البيانات وإدارة التخزين ---
+sqlalchemy>=2.0.31
+alembic>=1.13.2
+
+# --- تحليل الإشارات الحيوية (Wearable Signals) ---
+scipy>=1.13.1
+statsmodels>=0.14.2
+
+# --- مكتبات مساعدة ---
+tqdm>=4.66.4
+joblib>=1.4.2
+python-dotenv>=1.0.1
+requests>=2.32.3
+
+# --- دعم التشغيل على جميع الأنظمة ---
+sounddevice>=0.4.7
+numba>=0.59.1

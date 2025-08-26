@@ -1,0 +1,10 @@
+[project]
+name = "insight-engineering"
+version = "0.1.0"
+description = "هندسة البصيرة – Insight Engineering"
+authors = [{name = "Dr. Taha Abdelaal"}]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["."]

@@ -1,0 +1,4 @@
+nodes: ["Mind","Heart","Body","Spirit","Relations","Work"]
+edges:
+  - ["Mind","Spirit", 0.5]
+  - ["Heart","Relations", 0.6]
